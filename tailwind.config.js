@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./_site/**/*.{html,njk}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['proxima-nova'],
+      },
+    },
   },
   plugins: [],
 }

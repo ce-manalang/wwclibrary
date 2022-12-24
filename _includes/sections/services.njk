@@ -1,12 +1,73 @@
-<section class="px-8 pt-16">
-  <h2 class="text-center text-4xl font-bold">Many options to choose from</h2>
-  <p class="mx-auto mt-4 max-w-3xl text-center">
-    Velit perspiciatis error est quam expedita aperiam assumenda eveniet, iste voluptatibus suscipit eligendi odit consequatur architecto dolor!
-  </p>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-12">
-    {% import 'sections/service-macro.njk' as macro %}
-    {{ macro.service('shadow-sm', 'bg-cyan-300', 'Iste voluptatibus', 'Perspiciatis error est quam expedita aperiam assumenda eveniet, iste voluptatibus suscipit.') }}
-    {{ macro.service('shadow-sm', 'bg-pink-300', 'Architecto dolor', 'Perspiciatis error est quam expedita aperiam assumenda eveniet, iste voluptatibus suscipit.') }}
-    {{ macro.service('shadow-sm', 'bg-purple-300', 'Est quam expedita', 'Perspiciatis error est quam expedita aperiam assumenda eveniet, iste voluptatibus suscipit.') }}
+<div class="relative px-4 pt-16 pb-20 sm:px-6 lg:px-40 lg:pt-24 lg:pb-28">
+  <div class="absolute inset-0">
+    <div class="h-1/3 bg-white sm:h-2/3"></div>
   </div>
-</section>
+  <div class="relative mx-auto max-w-7xl">
+    <div class="text-center">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the shelf</h2>
+      <p class="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">Books the community read so far</p>
+    </div>
+    <div class="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
+      <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+        <div class="flex-shrink-0">
+          <img class="h-48 w-full object-cover" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1565909496i/35959740.jpg" alt="">
+        </div>
+        <div class="flex flex-1 flex-col justify-between bg-white p-6">
+          <div class="flex-1">
+            <p class="text-sm font-medium text-[#97dfe2]">
+              <a href="#" class="hover:underline">Fiction</a>
+            </p>
+            <a href="#" class="mt-2 block">
+              <p class="text-xl font-bold text-gray-900">Circe</p>
+              <p class="text-lg font-medium text-gray-900">Madeline Miller</p>
+              <p class="mt-5 text-base text-gray-500">
+                In the house of Helios, god of the sun and mightiest of the Titans, a daughter is born. But Circe is a strange child--neither powerful like her father nor viciously alluring like her mother. Turning to the world of mortals for companionship, she discovers that she does possess power: the power of witchcraft, which can transform rivals into monsters and menace the gods themselves.
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+        <div class="flex-shrink-0">
+          <img class="h-48 w-full object-cover" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1356129646i/12478803.jpg" alt="">
+        </div>
+        <div class="flex flex-1 flex-col justify-between bg-white p-6">
+          <div class="flex-1">
+            <p class="text-sm font-medium text-[#97dfe2]">
+              <a href="#" class="hover:underline">Fiction</a>
+            </p>
+            <a href="#" class="mt-2 block">
+              <p class="text-xl font-bold text-gray-900">The Bell Jar</p>
+              <p class="text-lg font-medium text-gray-900">Sylvia Plath</p>
+              <p class="mt-5 text-base text-gray-500">
+                When Esther Greenwood wins an internship on a New York fashion magazine in 1953, she is elated, believing she will finally realise her dream to become a writer. But in between the cocktail parties and piles of manuscripts, Esther's life begins to slide out of control. She finds herself spiralling into depression and eventually a suicide attempt, as she grapples with difficult relationships and a society which refuses to take women's aspirations seriously.
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+        <div class="flex-shrink-0">
+          <img class="h-48 w-full object-cover" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1577769425i/49833634.jpg" alt="">
+        </div>
+        <div class="flex flex-1 flex-col justify-between bg-white p-6">
+          <div class="flex-1">
+            <p class="text-sm font-medium text-[#97dfe2]">
+              <a href="#" class="hover:underline">Fiction</a>
+            </p>
+            <a href="#" class="mt-2 block">
+              <p class="text-xl font-bold text-gray-900">Normal People</p>
+              <p class="text-lg font-medium text-gray-900">Sally Rooney</p>
+              <p class="mt-5 text-base text-gray-500">
+                At school Connell and Marianne pretend not to know each other. He's popular and well-adjusted, star of the school football team, while she is lonely, proud, and intensely private. But when Connell comes to pick his mother up from her job at Marianne's house, a strange and indelible connection grows between the two teenagers--one they are determined to conceal.
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
